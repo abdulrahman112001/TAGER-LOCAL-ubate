@@ -5151,7 +5151,7 @@ input[type='number'] {
   top: 0;
   left: 0;
   width: 300px;
-  height: 100vh;
+  height: 100%;
   padding: 0 20px;
   background-color: #472559;
   color: #000;
@@ -5921,7 +5921,7 @@ footer .foot::before {
     width: 200px;
     height: 1px;
     top: 100%;
-    left: 18%;
+    /* left: 18%; */
   }
 }
 @media (max-width: 991px) {
@@ -5931,4 +5931,31 @@ footer .foot::before {
   .pernt-car-btn {
     left: 0;
   }
+}
+
+
+
+
+.nav-link.sochial:hover > a {
+  background-color: transparent;
+
+}
+.nav-link.sochial a:hover{
+  background-color: #03a9f4;
+  border-radius: 50%;
+  padding: 10px;
+
+}
+.nav-link.sochial a:hover i{
+
+  color: white;
+
+}
+
+
+.owl-theme .owl-dots{
+  display: none;
+}
+.btn-main{
+color: white;
 }
