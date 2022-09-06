@@ -510,7 +510,7 @@ nav::after {
 }
 .x_slider_select {
   float: left;
-  width: 45%;
+  width: 48%;
   margin-top: 20px;
   position: relative;
 }
@@ -592,7 +592,7 @@ footer {
   background-color: #472559;
   border-top: 7px solid #03a9f4;
   position: relative;
-  padding: 40px;
+  padding: 20px;
 }
 footer .social-links {
   position: absolute;
@@ -642,7 +642,7 @@ footer .tail {
   color: #fff;
   text-align: center;
   font-size: 1.1rem;
-  margin: 2rem 0;
+  margin: 0rem 0;
 }
 
 /* Responsive Media Query */
@@ -6161,7 +6161,7 @@ footer .foot::before {
 
 .swip {
   position: relative;
-  height: 60%;
+  height: 75%;
 }
 
 .swip {
