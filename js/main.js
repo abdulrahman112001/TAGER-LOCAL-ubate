@@ -44,6 +44,3 @@ up.onclick = function () {
     behavior: 'smooth',
   });
 };
-// --------------------------------------
-
-
