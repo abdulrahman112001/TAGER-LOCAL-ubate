@@ -361,6 +361,7 @@ nav::after {
 .filter-options {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 15px;
   margin-bottom: 40px;
   margin-top: 20px;
