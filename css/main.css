@@ -2,6 +2,7 @@
 * {
   padding: 0;
   margin: 0;
+  /* font-family: ; */
 }
 body {
   font-family: Lato, sans-serif;
@@ -49,9 +50,12 @@ i {
   color: #454c58;
   font-size: 20px;
 }
-section {
-  margin: 40px 0;
+
+main {
+  /* margin: 40px 0; */
+  padding-top: 50px;
 }
+
 img {
   object-fit: cover;
 }
@@ -106,7 +110,7 @@ p {
   margin-top: 5px;
 }
 .btn {
-  padding: 5px 30px;
+  padding: 5px 10px;
   background-color: #03a9f4;
   color: #fff;
   font-weight: 600;
@@ -122,7 +126,7 @@ nav {
   width: 100%;
   background: #472559;
   position: relative;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 .nav-link {
   padding: 20px 0;
@@ -210,7 +214,7 @@ nav::after {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  margin: 0 auto 30px;
+  /* margin: 0 auto 30px; */
   position: relative;
 }
 .nav-links > ul {
@@ -5321,7 +5325,7 @@ input[type='number'] {
 }
 @media (max-width:960px) {
   .border-car{
-    padding: 5px !important;
+    padding: 15px !important;
   }
   
 }
@@ -6291,7 +6295,7 @@ footer .foot::before {
 }
 .borders .ViewMore{
   border-radius: 12px;
-  margin: 0 0 -20px 0;
+  margin: 0 0 -50px 0;
   background-color: white;
   border: 2px solid !important;
   border-color: #03a9f4 !important;
@@ -6436,7 +6440,7 @@ border-radius: 0;
   }
   @media (max-width:600px) {
     .navigat{
-      margin-top: 60px;    }
+      margin-top: 90px;    }
     
   }
   
@@ -6475,4 +6479,21 @@ border-radius: 0;
   background: #ccc;
   position: absolute;
   top: -330px;
+}
+
+.head-tagger{
+  top: 15px;
+}
+.btn:hover{
+  background-color: #472559;
+  color: white;
+  border: 2px solid white;
+}
+.btn-check:focus+.btn, .btn:focus {
+  color: white;
+  background-color:#472559;
+  border-color: #472559;
+  outline: 0;
+  box-shadow: none;
+  border: none;
 }
