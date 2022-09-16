@@ -6277,8 +6277,8 @@ footer .foot::before {
   object-fit: cover;
 }
 @media (max-width:415px) {
-  .swiper-slide img{
-    height: 60%;
+  .swip{
+    height: 50%;
   }
   
 }
