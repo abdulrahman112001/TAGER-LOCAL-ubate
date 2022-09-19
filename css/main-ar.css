@@ -1,0 +1,45 @@
+nav::after {
+    content: '';
+    position: absolute;
+    border: 82px solid;
+    border-bottom: 0;
+    border-color: transparent #03a9f4 transparent transparent;
+    top: 0;
+    right: 280px;
+}
+.drop-menu {
+
+    right: 0;
+    left: inherit;
+
+}
+
+footer .content ul {
+    border-right: none;
+    border-left: 2px solid #797979;
+}
+
+.btc_ln_slider_wrapper1 .owl-theme .owl-nav .owl-prev {
+    color: #472559;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    transition: 0.5s;
+    right:  -40px;
+}
+.btc_ln_slider_wrapper1 .owl-theme .owl-nav .owl-next {
+    font-size: 26px;
+    color: #472559;
+    width: 30px;
+    border-radius: 50%;
+    transition: 0.5s;
+    right: 102%;
+}
+@media (max-width: 991px){
+.pernt-car-btn {
+    right: 0;
+}
+nav::after{
+    display: none;
+}
+}
