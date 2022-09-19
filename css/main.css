@@ -6337,7 +6337,18 @@ footer .foot::before {
   background-color: #03A9F4;
   color: white;
 }
+@media (max-width:460px) {
+  .sochial{
+    position: fixed;
+    bottom: 25px;
+    z-index: 100000;
 
+  }
+}
+.sochial{
+  /* display: block; */
+
+}
 .soch{
   background-color: #03A9F4;
   color: white;
@@ -6367,7 +6378,7 @@ display: none;
 }
 @media (max-width:720px) {
   .details-social{
-    display: block
+    display: none
   }
 }
 
