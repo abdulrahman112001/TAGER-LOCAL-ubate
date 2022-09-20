@@ -1,45 +1,88 @@
+*{
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
 nav::after {
-    content: '';
-    position: absolute;
-    border: 82px solid;
-    border-bottom: 0;
-    border-color: transparent #03a9f4 transparent transparent;
-    top: 0;
-    right: 280px;
+  content: "";
+  position: absolute;
+  border: 82px solid;
+  border-bottom: 0;
+  border-color: transparent #03a9f4 transparent transparent;
+  top: 0;
+  right: 280px;
 }
 .drop-menu {
-
-    right: 0;
-    left: inherit;
-
+  right: 0;
+  left: inherit;
 }
 
 footer .content ul {
-    border-right: none;
-    border-left: 2px solid #797979;
+  border-right: none;
+  border-left: 2px solid #797979;
 }
 
 .btc_ln_slider_wrapper1 .owl-theme .owl-nav .owl-prev {
-    color: #472559;
-    width: 30px;
-    border-radius: 50%;
-    text-align: center;
-    transition: 0.5s;
-    right:  -40px;
+  color: #472559;
+  width: 30px;
+  border-radius: 50%;
+  text-align: center;
+  transition: 0.5s;
+  right: -40px;
 }
 .btc_ln_slider_wrapper1 .owl-theme .owl-nav .owl-next {
+  font-size: 26px;
+  color: #472559;
+  width: 30px;
+  border-radius: 50%;
+  transition: 0.5s;
+  right: 102%;
+}
+.main-carwsel.owl-theme .owl-nav .owl-next {
     font-size: 26px;
     color: #472559;
     width: 30px;
     border-radius: 50%;
     transition: 0.5s;
-    right: 102%;
+    left: -45px;
 }
-@media (max-width: 991px){
-.pernt-car-btn {
+.main-carwsel.owl-theme .owl-nav .owl-prev {
+    color: #472559;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    transition: 0.5s;
+    right: -45px;
+}
+@media (max-width: 991px) {
+  .pernt-car-btn {
     right: 0;
-}
-nav::after{
+  }
+  nav::after {
     display: none;
+  }
 }
+.lg-outer {
+  text-align: right;
+}
+
+.form-sec-header input {
+  padding: 0px 26px 0 0;
+}
+.x_slider_select select {
+  padding-right: 25px;
+}
+.x_slider_select i {
+  right: 8px;
+}
+.x_slider_checout_right button i {
+  left: 128px;
+}
+@media (max-width:450px) {
+    .x_slider_form_heading_wrapper.float_left{
+        display: none;
+    }
+    .x_slider_form_main_wrapper {
+        padding: 5px 20px 20px;
+    
+    }
+    
 }
