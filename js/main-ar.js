@@ -54,3 +54,25 @@ $('.main-carwsel').owlCarousel({
       swiper: swiper,
   },
   });
+  
+  $('.list5').showMoreItems({
+    startNum:12,
+    afterNum:10,
+    original:true,
+    responsive: [
+      {
+        breakpoint: 1280,
+        settings: {
+        startNum:12,
+        afterNum:10,
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+        startNum:12,
+        afterNum:10,
+        }
+      }
+    ]
+  });
