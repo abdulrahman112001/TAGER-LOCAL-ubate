@@ -106,3 +106,15 @@ footer .content ul {
 .fa-star.active{
   color: #fbbf0a;
 }
+.car_checkout_chekbox input[type="checkbox"] + label::before, .x_slider_checkbox input[type="checkbox"] + label::before {
+  border: 2px solid #eee;
+  content: '\00a0';
+  display: inline-block;
+  font: 18px/1em sans-serif;
+  height: 19px;
+  margin: 0.2em -0.44em 0.2em 0.5em;
+  padding: 0;
+  vertical-align: top;
+  width: 19px;
+  border-radius: 5px;
+}
