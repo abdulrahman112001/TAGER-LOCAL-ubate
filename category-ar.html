@@ -1585,7 +1585,7 @@
                             </div>
                         </div>
 
-                        <div class="row ">
+                        <div class="row col-auto">
                             <div class="col-4 border p-2 text-center">
                                 <h6 style="font-size:14px;" class="">Price Per Day</h6>
                                 <p style="font-size:14px;" class="">5510 AED</p>
@@ -2319,11 +2319,14 @@
     <script src="js/showMoreItems.min.js"></script>
     <script src="js/jquary-minu.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
     <!-- <script src="js/main.js"></script> -->
     <script src="js/main-ar.js"></script>
 
     <script>
+  flatpickr("#date-picker", {});
+
         $('.list4').showMoreItems({
             startNum: 12,
             afterNum: 10,

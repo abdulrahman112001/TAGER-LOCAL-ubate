@@ -898,7 +898,7 @@
                                 </div>
                             </div>
 
-                            <button class="col-auto m-auto m-2">Top Auto car rental</button>
+                            <button class="col-auto m-auto mt-2">Top Auto car rental</button>
                         </div>
                         <div class="row justify-content- m-auto   ">
                             <div class="col-3 flex-fill border m-1  p-1">
@@ -1018,7 +1018,7 @@
                                     </label>
                                 </div>
                             </div>
-                            <div class="col-6 col-lg-12">
+                            <div class=" col-12 col-md-6 col-lg-12">
                                 <div class="form-sec-header">
                                     <h3>اختر تاريخا</h3>
                                     <label class="cal-icon">اختر تاريخا
@@ -1027,7 +1027,7 @@
                                     </label>
                                 </div>
                             </div>
-                            <div class="col-6 col-lg-12">
+                            <div class=" col-12 col-md-6 col-lg-12">
                                 <div class="form-sec-header">
                                     <h3>تاريخ النزول</h3>
                                     <label class="cal-icon">اختر تاريخا
@@ -1073,7 +1073,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-12">
+                            <div class=" col-12 col-md-6 col-md-12">
                                 <div class="x_slider_checkbox_bottom float_left">
                                     <div class="x_slider_checout_left">
                                         <ul>
@@ -2509,6 +2509,58 @@
                 <h6>UAE, Dubi, Business, Tammany arts building, office No.832. - TAJR rent a car UAE lic, No.923100</h6>
             </div>
     </footer>
+
+      <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content ">
+      <div class="modal-header border-0">
+        <button type="button" class="btn-close m-0" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body border-0 needs-validation" novalidate>
+        <form action="">
+
+          <input type="text" placeholder="Name" class="rounded-2 p-2 border w-100">
+
+          <input type="text" placeholder="+971" class="rounded-2 p-2 border w-100 mt-3">
+          <input type="text" placeholder="Email ID" class="rounded-2 p-2 border w-100 mt-3">
+        </form>
+      </div>
+      <div class="modal-footer border-0 text-center m-auto">
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+        <button type="button" class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
+          data-bs-dismiss="modal">Verify phone No.</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- -------- -->
+
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+  tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header  border-0">
+        <button type="button" class="btn-close m-0" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body  border-0">
+        <form class="row justify-content-center">
+          <input class="col-1 p-1" type="number" placeholder="-" min="1" max="1">
+          <input class="col-1 p-1" type="number" placeholder="-" min="1" max="1">
+          <input class="col-1 p-1" type="number" placeholder="-" min="1" max="1">
+          <input class="col-1 p-1" type="number" placeholder="-" min="1" max="1">
+
+          <div class="modal-footer border-0 text-center m-auto">
+            <button class="btn btn-primary" type="submit">Enter the code</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+
     <div class="up"><img src="images/car.png" alt="" /></div>
 
 
@@ -2540,6 +2592,8 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="js/jquary-minu.js"></script>
 <script src="js/showMoreItems.min.js"></script>
     <!-- <script src="js/main.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
     <script src="js/main-ar.js"></script>
 
     <script>
@@ -2570,7 +2624,8 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
-        
+        flatpickr("#date-picker", {});
+
         </script>
 </body>
 

@@ -28,9 +28,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.6.0/css/lg-thumbnail.min.css"
     integrity="sha512-GRxDpj/bx6/I4y6h2LE5rbGaqRcbTu4dYhaTewlS8Nh9hm/akYprvOTZD7GR+FRCALiKfe8u1gjvWEEGEtoR6g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" href="css/owl.carousel.min.css" />
-  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
   <!-- Flat Picker -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
   <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/dark.css">
@@ -2299,35 +2299,38 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.6.0/plugins/thumbnail/lg-thumbnail.min.js"
     integrity="sha512-OxvyFPsKvn4jSS6/JSGrSf88FFeT2LKQX2iUddcPXhvwbQMIzcI9JxiwZlZsmcISRjTIJ4LU3hT4deiLjs8CAw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
   <script src="js/main.js"></script>
   <script>
         lightGallery(document.getElementById('lightgallery'), {
       plugins: [lgThumbnail],
     });
 
-try {
-fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
-return true;
-}).catch(function(e) {
-var carbonScript = document.createElement("script");
-carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
-carbonScript.id = "_carbonads_js";
-document.getElementById("carbon-block").appendChild(carbonScript);
-});
-} catch (error) {
-console.log(error);
-}
+  try {
+  fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+  return true;
+  }).catch(function(e) {
+  var carbonScript = document.createElement("script");
+  carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+  carbonScript.id = "_carbonads_js";
+  document.getElementById("carbon-block").appendChild(carbonScript);
+  });
+  } catch (error) {
+  console.log(error);
+  }
 
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-36251023-1']);
-_gaq.push(['_setDomainName', 'jqueryscript.net']);
-_gaq.push(['_trackPageview']);
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
 
-(function() {
-var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
+  (function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  flatpickr("#date-picker", {});
 
 </script>
 </body>

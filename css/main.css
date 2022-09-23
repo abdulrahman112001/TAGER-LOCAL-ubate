@@ -577,7 +577,7 @@ nav::after {
   text-align: center;
 }
 .details .price > div:not(:last-child) {
-  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
   padding: 7px 10px;
 }
 .details .price > div span {
@@ -6487,7 +6487,7 @@ border-radius: 0;
   }
   @media (max-width:600px) {
     .navigat{
-      margin-top: 90px;    }
+      margin-top: 70px;    }
     
   }
   
@@ -6561,4 +6561,7 @@ border-radius: 0;
   border: 2px solid !important;
   border-color: #03A9F4 !important;
   margin: 18px !important;
+}
+.fa-star.active{
+  color: #fbbf0a;
 }

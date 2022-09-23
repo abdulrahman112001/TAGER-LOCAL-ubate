@@ -89,3 +89,20 @@ footer .content ul {
     }
     
 }
+.details .price {
+
+  margin-left: 40px;
+}
+.flatpickr-calendar::before, .flatpickr-calendar::after {
+
+  left: 92%;
+}
+@media (max-width:480px) {
+  .details .price{
+    margin: auto;
+  }
+  
+}
+.fa-star.active{
+  color: #fbbf0a;
+}
