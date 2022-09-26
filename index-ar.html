@@ -32,6 +32,16 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/main-ar.css" />
     <title>مرحبًا بالعالم!</title>
+    <style>
+      .details {
+    margin-top: 10rem;
+    margin-bottom: 40px;
+    box-shadow: 0 0 0; 
+    background-color: transparent; 
+    border-radius: 10px;
+    padding: 20px;
+}
+    </style>
   </head>
   <body>
     <header class="head-tagger">
@@ -1071,7 +1081,7 @@
               </div>
               <div class="mt-3">
                 <p class="fs-6">مجموعة كبيرة من المركبات للاختيار من بينها.</p>
-                <p class="fs-6 pt-2">
+                <p class="fs-6 pt-2 lead demo-4">
                   تتوفر أنواع مختلفة من السيارات للإيجار في tajeercarrent.com.
                   اختر من بين مئات السيارات المتاحة للإيجار ، بدءًا من سيارات
                   بوجاتي الفاخرة ، ومرسيدس ، ولامبورجيني ، وفيراري ، ورولز رويس
@@ -3635,6 +3645,15 @@
     <script src="js/owl-thumb.min.js"></script>
     <script src="js/jquary-minu.js"></script>
     <!-- <script src="js/main.js"></script> -->
+    <script src="js/jquery.expander.min.js"></script>
     <script src="js/main-ar.js"></script>
+    <script>
+        $('.demo-4').expander({
+  expandEffect: 'fadeIn',
+  collapseEffect: 'fadeOut',
+  });
+
+    </script>
+    
   </body>
 </html>
