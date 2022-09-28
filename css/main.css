@@ -6633,7 +6633,7 @@ border-radius: 0;
 .owl-prev [aria-label=Previous] ,.owl-next [aria-label=Next] {
   position: absolute !important;
   top: -2px !important;
-  left: 29% !important;
+  left: 37% !important;
 }
 .border{
   border: 1px solid  rgb(0 0 0 / 7%) !important;
@@ -6643,6 +6643,10 @@ border-radius: 0;
   .main-carwsel.owl-carousel.owl-theme .owl-nav{
     display: none;
 
+  }
+  .owl-prev [aria-label=Previous] ,.owl-next [aria-label=Next]{
+    top: -2px !important;
+    left: 29% !important;
   }
   
 }
