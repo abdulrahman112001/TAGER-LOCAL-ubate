@@ -21,14 +21,80 @@
   <link rel="stylesheet" href="css/owl.theme.default.min.css" />
   <link rel="stylesheet" href="css/main.css" />
   <style>
-          .details {
+  .details {
     margin-top: 10rem;
     margin-bottom: 40px;
     box-shadow: 0 0 0; 
     background-color: transparent; 
     border-radius: 10px;
     padding: 20px;
-}
+  }
+  .bg-filteration{
+    width: 100%;
+  }
+  .img-filtration{
+    background-image: url(../TAGER-LOCAL/images/about_img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-position: center;
+    /* 
+    background-repeat: no-repeat;
+    background-size: cover; */
+    z-index: 9999;
+    padding: 100px;
+    position: relative;
+
+  }
+  .over-lay{
+    background-color: rgb(193 193 193 / 60%);
+        /* padding: ; */
+    z-index: 99999999999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px;
+    position: absolute;
+
+  }
+  .input-over-lay{
+    position: absolute;
+    z-index: 9999999999999;
+    /* width: 54%; */
+    margin: auto;
+    text-align: center;
+    /* top: 0; */
+    left: -50px;
+    transform: translate(50%);
+  }
+  .search-icon{
+    position: absolute;
+    z-index: 9999999999999;
+    /* width: 54%; */
+    margin: auto;
+    text-align: center;
+    /* top: 37%;
+    left: 22%; */
+    padding: 13px 0 0 153px;
+    font-size: -3px;
+    transform: translate(-17%);
+  }
+  .search-input{
+    border-radius: 0 8px 8px 0 !important;
+    position: relative;
+  }
+  .search-icon i{
+    font-size: 15px;
+    position: absolute;
+  }
+  @media (max-width:760px) {
+    
+    .div-input{
+      width: 100% !important;
+    }
+  }
+
+
   </style>
 </head>
 
@@ -797,6 +863,31 @@
       </li>
     </ul>
   </div>
+  <section>
+    <div class="bg-filteration">
+      <div class="img-filtration ">
+        <!-- <img class="w-100" src="images/about_img1.jpg" alt=""  height="300px">    -->
+        <div class="over-lay">
+          <div class="text-center pt-5">
+            <h5 style="" class="text-white m-auto fw-bolder">Car Rental Dubai</h5>
+
+          </div>
+
+          <div class="w-75 m-auto div-input pt-3">
+            <div class="input-group mb-3 ">
+              <button class="btn btn-outline-secondary" type="button" id="button-addon1">view all cars</button>
+              <input type="text" class="form-control ps-5 search-input " placeholder="search" aria-label="Example text with button addon" aria-describedby="button-addon1">
+              <div class="position-absolute search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
 
   <div class="wrapper">
     <main class="container">

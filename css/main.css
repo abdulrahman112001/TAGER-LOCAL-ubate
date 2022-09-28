@@ -279,6 +279,7 @@ nav::after {
   /* left: -10%; */
   height: 4px;
   background: #03a9f4;
+  z-index: 999999999999999;
 }
 /* Social Links */
 .social-links {
