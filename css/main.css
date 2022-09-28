@@ -6632,8 +6632,8 @@ border-radius: 0;
 
 .owl-prev [aria-label=Previous] ,.owl-next [aria-label=Next] {
   position: absolute !important;
-    top: -2px !important;
-    left: 37% !important;
+  top: -2px !important;
+  left: 29% !important;
 }
 .border{
   border: 1px solid  rgb(0 0 0 / 7%) !important;
