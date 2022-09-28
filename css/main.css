@@ -122,9 +122,9 @@ p {
 }
 .x-line h3 {
   font-size: 18px;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   text-transform: uppercase;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .x-line span {
   flex: 1;
@@ -407,7 +407,7 @@ nav::after {
   text-align: center;
 }
 .filter-options .selct-type {
-  width: 165px;
+  width: 100px;
   border-radius: 4px;
   display: flex;
   justify-content: center;
@@ -419,6 +419,12 @@ nav::after {
   border: none;
   background-color: #e6eaee;
   width: 85%;
+}
+@media (max-width:460px) {
+  .filter-options .selct-type select{
+    font-size: 13px;
+  }
+  
 }
 
 /* ## Card ## */
@@ -2443,7 +2449,7 @@ html .ui-button.ui-state-disabled:hover {
 .btc_ln_slider_wrapper2 {
   float: left;
   width: 100%;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 .btc_ln_slider_wrapper1 .owl-theme .owl-nav {
   position: relative;
@@ -6199,9 +6205,11 @@ footer .foot::before {
     left: 0;
   }
 }
-
-.owl-theme .owl-dots {
-  display: none;
+@media (min-width:460px) {
+  
+  .owl-theme .owl-dots {
+    display: none;
+  }
 }
 .btn-main {
   color: white;
@@ -6321,12 +6329,37 @@ footer .foot::before {
 }
 
 @media (max-width:629px) {
-  .owl-nav
-{
-  display: none;
+  .btc_ln_slider_wrapper1 .owl-theme .owl-nav .owl-next {
+    font-size: 20px;
+    color: #fff;
+    width: 20px;
+    height: 21px !important;
+    border-radius: 50%;
+    transition: 0.5s;
+    /* top: 0; */
+    left: 100%;
+  }
+  .btc_ln_slider_wrapper1 .owl-theme .owl-nav .owl-next, .btc_ln_slider_wrapper1 .owl-theme .owl-nav .owl-prev {
+    margin: 0;
+    padding: 0;
+    height: 21px;
+    line-height: 21px;
+    box-shadow: 0 0 8px rgb(0 0 0 / 10%);
+    background: #ccc;
+    position: absolute;
+    top: -82px;
+  }
+  .btc_ln_slider_wrapper1 .owl-theme .owl-nav .owl-prev {
+    color: #fff;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 21px;
+    transition: 0.5s;
+    right: 100%;
+}
 }
   
-}
 .parg ul li {
   list-style: disc;
 }
@@ -6461,6 +6494,7 @@ border-radius: 0;
 	padding-left: 20px;
 	font-size: 16px;
 	font-weight: bold;
+  /* text-align: center; */
 }
 
 .x_top_header_wrapper2 .top_btn{
@@ -6476,6 +6510,7 @@ border-radius: 0;
 	margin-bottom: 5px;
 	-webkit-animation: movebounce 2.9s linear infinite;
     animation: movebounce 2.9s linear infinite;
+    text-align: center;
 }
 .x_top_header_wrapper2 .top_btn:hover{
 	background:#FFF;
@@ -6601,4 +6636,12 @@ border-radius: 0;
 }
 .border{
   border: 1px solid  rgb(0 0 0 / 7%) !important;
+}
+
+@media (max-width:460px) {
+  .main-carwsel.owl-carousel.owl-theme .owl-nav{
+    display: none;
+
+  }
+  
 }
