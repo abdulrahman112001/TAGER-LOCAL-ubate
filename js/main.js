@@ -1,3 +1,14 @@
+
+
+$('#serach-input').keyup(function(){
+  $('#menu-selsect').addClass('dblock') +  $('#menu-selsect').removeClass("dnone")
+  $('#serach-input').focusout(function(){
+    $('#menu-selsect').addClass('dnone') +  $('#menu-selsect').removeClass("dblock")
+  })
+
+
+})
+
 $('.main-carwsel').owlCarousel({
   loop: true,
   margin: 10,
@@ -81,3 +92,4 @@ $('.list5').showMoreItems({
     }
   ]
 });
+
