@@ -105,12 +105,12 @@ p {
   right: 20px;
 }
 .brand {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   color: #000;
   text-align: center;
   background-color: #e6eaee;
-  margin-top: 15px;
+  margin-top: 5px;
   border-radius: 4px;
   padding: 3px 0;
 }
@@ -433,7 +433,7 @@ nav::after {
   overflow: hidden;
   border-radius: 15px;
   background-color: #fff;
-  /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 0 15px -8px rgb(0 0 0 / 40%);
 }
 .card svg {
   width: 22px;
@@ -3241,6 +3241,7 @@ input[type='number'] {
   -moz-transition: 0.5s;
   transition: 0.5s;
 }
+
 .btc_team_social_wrapper li a {
   float: left;
   color: #fff;
@@ -6578,7 +6579,7 @@ border-radius: 0;
   transition: 0.5s;
   left: 102%;
 }
- .main-carwsel.owl-theme .owl-nav .owl-next,  .main-carwsel.owl-theme .owl-nav .owl-prev {
+.main-carwsel.owl-theme .owl-nav .owl-next,  .main-carwsel.owl-theme .owl-nav .owl-prev {
   margin: 0;
   padding: 0;
   height: 30px;
@@ -6590,7 +6591,22 @@ border-radius: 0;
   top: -330px;
   color:white
 }
-
+@media (max-width:460px) {
+  .main-carwsel.owl-theme .owl-nav .owl-prev{
+      /* color: #472559; */
+      width: 30px;
+      border-radius: 50%;
+      text-align: center;
+      transition: 0.5s;
+      right: 94%;
+ 
+  }
+  .main-carwsel.owl-theme .owl-nav .owl-next{
+    left: 94%;
+  }
+  
+}
+ 
 .head-tagger{
   top: 0px;
 }
@@ -6640,13 +6656,13 @@ border-radius: 0;
 }
 
 @media (max-width:460px) {
-  .main-carwsel.owl-carousel.owl-theme .owl-nav{
-    display: none;
-
+  .card.position-relative.overflow-hidden{
+    width: 86%;
+    margin: auto;
   }
   .owl-prev [aria-label=Previous] ,.owl-next [aria-label=Next]{
     top: -2px !important;
-    left: 29% !important;
+    left: 39% !important;
   }
   
 }
@@ -6724,5 +6740,24 @@ border-radius: 0;
   
   .div-input{
     width: 100% !important;
+  }
+}
+
+
+@media (max-width:460px) {
+  
+  .btc_team_slider_cont_main_wrapper  img,
+   .btc_team_slider_cont_main_wrapper img
+{
+    width: 70px !important;
+    margin: auto;
+  
+  }
+  .btc_ln_slider_wrapper1 .owl-theme .owl-nav .owl-next,
+   .btc_ln_slider_wrapper1 .owl-theme .owl-nav .owl-prev{
+    top: -60px;
+  }
+  .brand {
+    font-size: 12px;
   }
 }
