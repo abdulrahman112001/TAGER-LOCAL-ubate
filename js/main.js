@@ -55,41 +55,41 @@ up.onclick = function () {
     behavior: 'smooth',
   });
 };
-var swiper = new Swiper(".mySwiper", {
-  spaceBetween: 10,
-  slidesPerView: 4,
-  freeMode: true,
-  watchSlidesProgress: true,
-});
-var swiper2 = new Swiper(".mySwiper2", {
-  spaceBetween: 10,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  thumbs: {
-    swiper: swiper,
-},
-});
-$('.list5').showMoreItems({
-  startNum:12,
-  afterNum:10,
-  original:true,
-  responsive: [
-    {
-      breakpoint: 1280,
-      settings: {
-      startNum:12,
-      afterNum:10,
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-      startNum:12,
-      afterNum:10,
-      }
-    }
-  ]
-});
+// var swiper = new Swiper(".mySwiper", {
+//   spaceBetween: 10,
+//   slidesPerView: 4,
+//   freeMode: true,
+//   watchSlidesProgress: true,
+// });
+// var swiper2 = new Swiper(".mySwiper2", {
+//   spaceBetween: 10,
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+//   thumbs: {
+//     swiper: swiper,
+// },
+// });
+// $('.list5').showMoreItems({
+//   startNum:12,
+//   afterNum:10,
+//   original:true,
+//   responsive: [
+//     {
+//       breakpoint: 1280,
+//       settings: {
+//       startNum:12,
+//       afterNum:10,
+//       }
+//     },
+//     {
+//       breakpoint: 600,
+//       settings: {
+//       startNum:12,
+//       afterNum:10,
+//       }
+//     }
+//   ]
+// });
 

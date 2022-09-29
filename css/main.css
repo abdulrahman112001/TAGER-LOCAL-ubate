@@ -279,7 +279,7 @@ nav::after {
   /* left: -10%; */
   height: 4px;
   background: #03a9f4;
-  z-index: 999999999999999;
+  z-index: 99999;
 }
 /* Social Links */
 .social-links {
@@ -6762,4 +6762,14 @@ border-radius: 0;
   .brand {
     font-size: 12px;
   }
+}
+
+.lg-outer {
+
+    z-index: 999999;
+}
+.lg-backdrop {
+
+    z-index: 99999;
+
 }
