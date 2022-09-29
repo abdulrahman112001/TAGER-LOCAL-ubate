@@ -6205,6 +6205,7 @@ footer .foot::before {
   }
   .pernt-car-btn {
     left: 0;
+    width: 100% !important;
   }
 }
 @media (min-width:460px) {
