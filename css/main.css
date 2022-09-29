@@ -413,7 +413,7 @@ nav::after {
   display: flex;
   justify-content: center;
   background-color: #e6eaee;
-  padding: 10px 0;
+  padding: 10px 10px;
 }
 .filter-options .selct-type select {
   outline: none;
