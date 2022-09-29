@@ -99,7 +99,7 @@ p {
   color: white;
   transition: 0.3s;
   cursor: pointer;
-  z-index: 10000;
+  z-index: 100000;
 }
 .up.active {
   right: 20px;
@@ -6403,6 +6403,7 @@ footer .foot::before {
     position: fixed;
     bottom: 25px;
     z-index: 100000;
+    justify-content: space-evenly;
 
   }
 }
