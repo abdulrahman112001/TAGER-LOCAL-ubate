@@ -6788,3 +6788,10 @@ border-radius: 0;
     z-index: 99999;
 
 }
+
+@media (max-width:460px) {
+  .price h6{
+    font-size: 12px !important;
+
+  }
+}
