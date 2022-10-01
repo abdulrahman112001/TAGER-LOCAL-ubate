@@ -14,9 +14,9 @@ $('.main-carwsel').owlCarousel({
   margin: 10,
   nav: true,
   loop:true,
-  autoplay:true,
-  autoplayTimeout:1000,
-  autoplayHoverPause:true,
+  // autoplay:true,
+  // autoplayTimeout:1000,
+  // autoplayHoverPause:true,
   responsive: {
     0: {
       items: 1,
@@ -37,9 +37,9 @@ $('.owl-carousel').owlCarousel({
   margin: 10,
   nav: true,
   loop:true,
-  autoplay:true,
-  autoplayTimeout:1000,
-  autoplayHoverPause:true,
+  // autoplay:true,
+  // autoplayTimeout:1000,
+  // autoplayHoverPause:true,
   responsive: {
     0: {
       items: 3,
@@ -101,3 +101,5 @@ up.onclick = function () {
 //   ]
 // });
 
+$(".datepicker").datepicker({ dateFormat: "D dd M yy" });
+$(".horizontal-datepicker").datepicker({ dateFormat: "dd M yy" });
