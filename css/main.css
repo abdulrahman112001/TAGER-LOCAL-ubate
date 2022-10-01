@@ -6378,6 +6378,13 @@ footer .foot::before {
   border: 2px solid !important;
   border-color: #03a9f4 !important;
 }
+@media (max-width:460px) {
+  .parg ul li{
+
+    font-size: 12px !important;
+  }
+  
+}
 .borders .ViewMore{
   border-radius: 12px;
   margin: 0 0 -50px 0;
