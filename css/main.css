@@ -6795,3 +6795,8 @@ border-radius: 0;
 
   }
 }
+
+.active>.page-link, .page-link.active{
+  background-color: #03a9f4;
+    border-color: #03a9f4;
+}
