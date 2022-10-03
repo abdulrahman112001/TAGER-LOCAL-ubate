@@ -8,7 +8,7 @@
   margin: 0; 
   /* -webkit-appearance: none !important; */
   -moz-appearance: none !important;
-  /* appearance: none !important; */
+  appearance: none !important;
 
 }
 input, textarea {
@@ -6810,4 +6810,18 @@ border-radius: 0;
 select option {
   -webkit-appearance: none !important;
   
+}
+
+select {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 1px;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+  margin-right: 0rem;
+  padding-right: 2rem;
 }
