@@ -188,6 +188,8 @@ nav {
   background-color: white;
   color: #141414;
   -webkit-appearance:none !important; 
+  -webkit-appearance: none !important; 
+	appearance: none !important;
 
 }
 .right-side .lang {
