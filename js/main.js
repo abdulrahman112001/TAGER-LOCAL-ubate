@@ -1,12 +1,13 @@
 
-
+let search = document.getElementById("serach-input")
 $('#serach-input').keyup(function(){
   $('#menu-selsect').addClass('dblock') +  $('#menu-selsect').removeClass("dnone")
-  
-
-})
-$('body').click(function(){
-  $('#menu-selsect').addClass('dnone') +  $('#menu-selsect').removeClass("dblock")
+    if(search.value.length == 0 ){
+      $('#menu-selsect').addClass('dnone') +  $('#menu-selsect').removeClass("dblock")
+    }
+  $('body').click(function(){
+    $('#menu-selsect').addClass('dnone') +  $('#menu-selsect').removeClass("dblock")
+  })
 })
 
 $('.main-carwsel').owlCarousel({
